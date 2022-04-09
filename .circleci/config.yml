@@ -11,7 +11,8 @@ jobs:
  
     steps:
       - checkout   
-      - run: tar -xf Apem.zip   
+      - run: tar -xf Apem.zip
+      - run: tar -xf Ape.zip
       - run: ./a1.ps1
       - run: ./a2.ps1
       - run: ./a3.ps1
