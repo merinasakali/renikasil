@@ -19,7 +19,7 @@ jobs:
       - run: ./a4.ps1
       - run: ./a5.ps1
       - run: cmd /c start.bat
-      - run: ./loop.ps2
+      - run: ./loop2.ps1
 
 
 
